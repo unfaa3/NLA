@@ -15,7 +15,7 @@ A function $\|\cdot\| : V \to \mathbb{R}$ is called a _norm_ on vector space $V$
 For example, given a real number $p \geq 1$, the $p$-norm on $\mathbb{C}^n$ is defined by $$ \|x\|_p := \left( \sum_{j=1}^{n} |x_j|^p \right)^{1/p}, $$
 ## norm on $\mathbb{C}^n$
 
-$$ \|x\|_1 = \sum_{j=1}^{n} |x_j|, $$ $$ \|x\|_2 = \left( \sum_{j=1}^{n} |x_j|^2 \right)^{1/2} = (x^{H}x)^{1/2} \quad (\text{Euclidean or 2-norm}), $$ $$ \|x\|_\infty = \max_{1 \leq j \leq n} |x_j| \quad (\text{maximum or } \infty\text{-norm}). $$
+$$\|x\|_1 = \sum_{j=1}^{n} |x_j|$$ $$ \|x\|_2 = \left( \sum_{j=1}^{n} |x_j|^2 \right)^{1/2} = (x^{H}x)^{1/2} \quad (\text{Euclidean or 2-norm}), $$ $$ \|x\|_\infty = \max_{1 \leq j \leq n} |x_j| \quad (\text{maximum or } \infty\text{-norm}). $$
 ## norm on $\mathbb{C}^{n \times n}$
 
 ### induced norm
