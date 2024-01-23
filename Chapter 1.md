@@ -35,7 +35,9 @@ completing the proof.
 
 If $A \in \mathbb{C}^{n \times m}$ has an SVD, then the [[Chapter 0#unitary invariance|unitary invariance]] of the 2-norm shows that
 
-$$\|A\|_2 = \left\|\begin{bmatrix}\Sigma_+ & 0 \\ 0 & 0\end{bmatrix}\right\|_2 = \sigma_1.$$
+$$
+\|A\|_2 = \left\|\begin{bmatrix}\Sigma_+ & 0 \\ 0 & 0\end{bmatrix}\right\|_2 = \sigma_1.
+$$
 If $n = m$ and $A$ is nonsingular, then its SVD has the form $A = U\Sigma_+V^H$, where
 
 $$\Sigma_+ = \text{diag}(\sigma_1, \ldots, \sigma_n) \quad with \quad \sigma_1 \geq \ldots \geq \sigma_n > 0$$.
